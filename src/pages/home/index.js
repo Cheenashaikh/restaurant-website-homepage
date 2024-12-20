@@ -8,6 +8,7 @@ import Gallery from "./gallery";
 import Choice from "./choice";
 import Customer from "./customer";
 import Footer from "../../components/footer";
+import HeaderPic from "./headerpic";
 function Home() {
     useEffect(() => {
         AOS.init({
@@ -20,42 +21,39 @@ function Home() {
 
 
     return (
-<>
+        <>
+            <HeaderPic />
 
-        <div className="home">
-            <div className="ourStory">
-                <div className="story">
-                    <h6>Our Story</h6>
-                    <span className="right_line"></span>
-                    <img src={imagepic} className="circle"/>
+            <div className="home">
+                <div className="ourStory">
+                    <div className="story">
+                        <h6 >Our Story</h6>
+                        <span className="right_line"></span>
+
+                    </div>
+                    <div className="para">
+                        <h1>Few Words About Us</h1>
+                        <p>When you need reliable and trustworthy home assistance in Karachi, **Maid Genie** is here to make your life easier. Our platform connects you with skilled and verified maids who specialize in a range of household tasks, including cleaning, cooking, and more. Whether you require daily help, one-time support, or assistance for special occasions, Maid Genie ensures a seamless experience tailored to your needs.
+
+                            We prioritize quality and professionalism, carefully selecting each maid to give you complete peace of mind. With detailed profiles and verified backgrounds, you can trust that you’re inviting the right help into your home. Our user-friendly platform makes it easy to find and book the perfect assistance, saving you time and effort.
+
+                            At Maid Genie, we believe in fostering trust and harmony between you and your help, creating a stress-free, well-managed home environment. Experience exceptional service and convenience designed to meet your busy lifestyle. Let us take care of your home, so you can focus on what truly matters!.</p>
+                    </div>
+
+
                 </div>
-                <div className="para">
-                <h2>Few Words About Us</h2>
-                    <p>When you are looking for Middle Eastern or Turkish restaurants in Karachi, you cannot go past Zeytin. We have captured the exotic flavours of the
-                        Mediterranean seaside region through to Turkey & created a exotic dining experience you will never forget. While we largely focus on offering delicious
-                        Middle Eastern & Turkish food, we also draw on Mediterranean influences to give our menu that extra twist. Meals are served up from traditionally
-                        Meze style to flavoursome chargrills giving you and your loved ones the chance to share your food, stories and laughs. We offer a warm and friendly
-                        dining restaurant, and an ambience to remember, making us the ideal venue for all your special occasions. Whether it is family dinner, casual parties or a
-                        corporate luncheon, we are the perfect place to go. In true Middle Eastern fashion, we love to celebrate food and we know our diners do too! That’s why we offer
-                        the best quality and tasting food every day in a spectacular environment and exceptional hospitality which would make you keep coming back for more.</p>
-                </div>
-                <div className="btn">
-                    <button>Explore Our Menu</button>
+                <div className="img">
+                    <img src="https://www.henryford.com/-/media/project/hfhs/henryford/henry-ford-blog/images/mobile-interior-banner-images/2019/02/bucket-of-cleaning-products.jpg" data-aos="fade-down" />
                 </div>
 
             </div>
-            <div className="img">
-            <img src="https://www.zeytin.pk/img/ab-2.jpg" data-aos="fade-down" />
-            </div>
 
-        </div>
-        <Special/>
-        <Gallery/>
-       <Choice/>
-       <Customer/>
-       <Footer/>
+            <Choice />
+            <Customer />
+            <Footer />
         </>
     );
 }
 
 export default Home;
+

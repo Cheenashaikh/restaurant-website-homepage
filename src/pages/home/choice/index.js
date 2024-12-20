@@ -32,10 +32,10 @@ function Choice() {
         <div className="choose">
             <div className="heading">
                 <span className="right_line2"></span>
-                <h6>Why people choose us</h6>
+                <h6>Servics </h6>
                 <span className="left_line2"></span>
                 <div className="para">
-                    <h2 style={{marginLeft:"230px"}}>Prepare for first-class service</h2>
+                    <h1 style={{marginLeft:"400px"}}>Servics we offer</h1>
                 </div>
             </div>
             

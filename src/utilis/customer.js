@@ -1,18 +1,18 @@
 export const customer = [
     {
-      image: "https://www.zeytin.pk/img/r1.jpg", 
-      text: "Best restaurant I have ever ate from. None less than one of the best restaurants I've been to and every item is delicious",
-      heading:"Mubashir Khan",
+      image: "https://media.istockphoto.com/id/803934008/photo/female-chef-in-kitchen.jpg?s=612x612&w=0&k=20&c=jYq8CNkSAvzu8QwpKY71xQ2HuqKPWqDjBUcj72XtyEU=", 
+      text: "The home chef service was amazing! The meals were delicious, personalized to our preferences, and made our family dinners so special. Highly recommend it!",
+      heading:"Shariya Fatima",
     },
     {
-      image: "https://www.zeytin.pk/img/r3.jpg", 
-      text: "awesome food .wonderful environment .had a great experiance.",
-      heading:"Nida Farhan",
+      image: "https://citymaidservices.net/wp-content/uploads/2024/04/city-maid-services_4.png", 
+      text: "The maid service was fantastic! She was professional, punctual, and made my home spotless. Highly satisfied with the experience!.",
+      heading:"Nida Fatima",
     },
     {
-      image: "https://www.zeytin.pk/img/r1.jpg", 
-      text: "Had an excellent experience.Food was really yummy n staff behaviour n consideration was outclass.",
-      heading:"Filza Shahid"
+      image: "https://media.istockphoto.com/id/959737668/photo/mother-and-son.jpg?s=612x612&w=0&k=20&c=vyCO1HtrdVZ-6zC2QkU3bT1kC3E_i8ib15iyvAHkI_Y=", 
+      text: "The nanny service was a blessing! She was caring, attentive, and kept my child engaged and happy all day. Highly recommended!.",
+      heading:"Farha Shaikh"
     },
   ];
   

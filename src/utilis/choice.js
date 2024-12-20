@@ -1,15 +1,15 @@
 export const choice = [
     {
-      image: "https://www.zeytin.pk/img/s2.jpg", 
-      text: "Fresh ingredients, tasty meal",
+      image: "https://www.onlinedegree.com/wp-content/uploads/2016/11/master_chef.jpg", 
+      text: "Chef",
     },
     {
-      image: "https://www.zeytin.pk/img/s3.jpg", 
-      text: "Large Variety of Cuisine",
+      image: "https://oysterlink.com/wp-content/uploads/2023/11/maid-job-description-960x480.jpg", 
+      text: "Maid",
     },
     {
-      image: "https://www.zeytin.pk/img/s1.jpg", 
-      text: "Creative and talented chefs",
+      image: "https://hss-me.com/wp-content/uploads/2022/08/Nanny-Course-in-Dubai.jpg", 
+      text: "Nannies",
     },
   ];
   
