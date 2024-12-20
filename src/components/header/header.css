@@ -93,30 +93,7 @@
 }
 
 
-.center-image div {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-}
- .left-image{
-  bottom: 40px;
-    padding-top:70px ;
-    padding-left: 50px;
-    position: absolute;
-    z-index: 1;
-    padding-top:70px ;
-    
-} 
-.right-image{
-    bottom: 30px;
-      padding-top:20px ;
-      padding-left: 170vh;
-      position: absolute;
-      z-index: 1;
-      padding-top:70px ;
-      
-      
-  } 
+/*   */
 @media (max-width: 1230px) {
     .content {
         padding: 0 60px;

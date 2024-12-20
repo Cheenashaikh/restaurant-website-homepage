@@ -26,11 +26,11 @@ const ImageSlider = () => {
         <div className="customer">
            
             <div className="heading">
-                <span className="right_line2"></span>
-                <h6>Latest News</h6>
+                <span className="right_line2" style={{marginLeft:"450px"}}></span>
+                <h6 >Latest News</h6>
                 <span className="left_line2"></span>
                 <div className="para">
-                    <h2>Our Customer Says</h2>
+                    <h1 style={{marginLeft:"450px"}}>Our Customer Says</h1>
                     <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ting eusm tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
